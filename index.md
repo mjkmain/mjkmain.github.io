@@ -17,10 +17,11 @@ author_profile: true
 
 ### :star: Interest
 
--
+- Computer Science
 
--
+- XAI
 
+- Deep Learning
 
 ### :hammer: Tech Stack
 
