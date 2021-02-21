@@ -5,15 +5,15 @@ author_profile: true
 
 ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=150&section=header&text=Mjkmain&fontSize=70&animation=twinkling)
 
-:wave: Hello My name is Minjun Kim, I am currently .
+ Hello My name is Minjun Kim, I've studying Computer Science and Mathematics.
 
 ### :runner: Career
 
-|    Date    |         Type        |          Contents         |                  Organization                  |
-|:----------:|:-------------------:|:-------------------------:|:----------------------------------------------:|
-|  2021.02 ~ | Research Activities |       XAI Researcher      | Mathematical Sciences Lab,  Hanbat Nat’l Univ. |
-|   2020.12  |        Award        |        Bronze Award       |           Korean Mathematical Society          |
-| 2020.00.00 |   Team Activities   | The Member, APPSILON Team |                    APPSILON                    |
+|     Date      |         Type        |          Contents         |                  Organization                  |
+|:-------------:|:-------------------:|:-------------------------:|:----------------------------------------------:|
+|   2021.01.10 ~ | Research Activities |       XAI Researcher      | Mathematical Sciences Lab,  Hanbat Nat’l Univ. |
+|  2020.12.11   |        Award        |        Bronze Award       |           Korean Mathematical Society          |
+|  2020.10.01   |   Team Activities   | The Member, APPSILON Team |                    APPSILON                    |
 
 ### :star: Interest
 
@@ -21,7 +21,7 @@ author_profile: true
 
 - XAI
 
-- Deep Learning
+- Mathematics
 
 ### :hammer: Tech Stack
 
@@ -41,6 +41,6 @@ Techs that I've used at least once
 
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmjkmain%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false) ![Hits](https://img.shields.io/github/followers/mjkmain?label=Follow)
 
-![Grade](https://img.shields.io/badge/grade-4.5%2F4.5-green)
+![Grade](https://img.shields.io/badge/grade-4.357%2F4.5-purple)
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mjkmain)
