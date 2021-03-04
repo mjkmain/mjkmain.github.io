@@ -5,15 +5,18 @@ author_profile: true
 
 ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=150&section=header&text=Mjkmain&fontSize=70&animation=twinkling)
 
- Hello My name is Minjun Kim, I've studying Computer Science and Mathematics.
+ Hello My name is Minjun Kim, I've been studying Computer Science and Mathematics.
 
 ### :runner: Career
 
 |     Date      |         Type        |          Contents         |                  Organization                  |
 |:-------------:|:-------------------:|:-------------------------:|:----------------------------------------------:|
+|   2021.03 ~      |       education     |      	Computer Engineering        |          Hanbat National University                  |
 |   2021.01.10 ~ | Research Activities |       XAI Researcher      | Mathematical Sciences Lab,  Hanbat Nat’l Univ. |
 |  2020.12.11   |        Award        |        Bronze Award       |           Korean Mathematical Society          |
 |  2020.10.01   |   Team Activities   | The Member, APPSILON Team |                    APPSILON                    |
+|  2018.03 ~    |       education     |      	Department of Civil and Environmental Engineering        |          Hanbat National University                         |
+
 
 ### :star: Interest
 
@@ -22,6 +25,8 @@ author_profile: true
 - XAI
 
 - Mathematics
+
+- Programming
 
 ### :hammer: Tech Stack
 
