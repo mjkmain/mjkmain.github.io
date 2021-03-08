@@ -5,45 +5,9 @@ var store = [{
         "url": "http://localhost:4000/java/TEST/",
         "teaser": null
       },{
-        "title": "Make Categories : Functions and Limits",
-        "excerpt":"내용  ","categories": ["Functions_and_Limits"],
-        "tags": ["Calculus"],
-        "url": "http://localhost:4000/functions_and_limits/TEST-1/",
-        "teaser": null
-      },{
-        "title": "Make Categories : Derivatives",
-        "excerpt":"내용  ","categories": ["Derivatives"],
-        "tags": ["Calculus"],
-        "url": "http://localhost:4000/derivatives/TEST-2/",
-        "teaser": null
-      },{
-        "title": "Make Categories : Applications of Differentiation",
-        "excerpt":"내용  ","categories": ["Applications of Differentiation"],
-        "tags": ["Calculus"],
-        "url": "http://localhost:4000/applications%20of%20differentiation/TEST-3/",
-        "teaser": null
-      },{
-        "title": "Make Categories : Integral",
-        "excerpt":"내용  ","categories": ["Integral"],
-        "tags": ["Calculus"],
-        "url": "http://localhost:4000/integral/TEST-4/",
-        "teaser": null
-      },{
-        "title": "Make Categories : Applications of Integration",
-        "excerpt":"내용  ","categories": ["Applications of Integration"],
-        "tags": ["Calculus"],
-        "url": "http://localhost:4000/applications%20of%20integration/TEST-5/",
-        "teaser": null
-      },{
-        "title": "Make Categories : Inverse Functions",
-        "excerpt":"내용  ","categories": ["Inverse Functions"],
-        "tags": ["Calculus"],
-        "url": "http://localhost:4000/inverse%20functions/TEST-6/",
-        "teaser": null
-      },{
-        "title": "Make Categories : Techniques of Integration",
-        "excerpt":"내용  ","categories": ["Techniques of Integration"],
-        "tags": ["Calculus"],
-        "url": "http://localhost:4000/techniques%20of%20integration/TEST-7/",
+        "title": "선형근사 (Linear approximation)",
+        "excerpt":"선형 근사   “함수의 그래프와 그 그래프의 접선은 인접한 부분에서 그래프가 유사하다.”   의 아이디어 사용     ex) \\((1.999)^4\\)   우선 \\(y = x^4\\) 의 그래프와 그 위의 점 \\((2,16)\\)에서의 접선 \\(y = 32x - 48\\)의 그래프를 그린다.   \\(y = x^4\\)을 \\(f(x)\\),  \\(y = 32x - 48\\)을 \\(L(x)\\)라고 하자.      위에서 사용한 아이디어를 통해 \\(f(1.999)\\) 와 \\(L(1.999)\\)는 유사한 값을 갖는다.   실제로 계산해보면 \\((1.999)^4 = 15.968023, 32(1.999)-48 = 15.968\\) 이다.    이렇게 1차(선형)근사를 통해 근사값을 찾는 방법을 선형근사라고 한다.   정리해보면 선형근사를 통해 근사값을 찾아가는 과정은      주어진 수(복잡한 수)와 가장 인접한 편리한 수 (계산이 쉬운 수, 주로 정수)를 택한다.            예제에서는 편리한 수 로 2를 택함.            주어진 수 를 미지수\\(x\\) 로 두고 함수로 만든다.            예제에서 1.999 -&gt; \\(x\\) , 만들어진 함수 : \\(f(x) = x^4\\)            위에서 정한 편리한 수 를 \\(x\\) 값으로 갖는 함수 \\(f(x)\\)위의 점을 찾는다.            예제에서 \\((2,16)\\)이 함수 위의 점.            선택된 좌표에서 접선의 방정식을 찾는다. \\(L(x) = f'(a)(x-a)+f(a)\\) (여기서 a는 편리한 수)            예제에서 \\(L(x) = 4(2)^3(x-2)+2^4 = 16x - 48\\)           ","categories": ["Calculus1"],
+        "tags": ["Linear Approximation"],
+        "url": "http://localhost:4000/calculus1/Linear_approximation/",
         "teaser": null
       }]

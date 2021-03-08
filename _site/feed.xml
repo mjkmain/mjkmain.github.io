@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-04T17:05:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">MJ’s</title><subtitle></subtitle><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><entry><title type="html">Make Categories : Functions and Limits</title><link href="http://localhost:4000/functions_and_limits/TEST-1/" rel="alternate" type="text/html" title="Make Categories : Functions and Limits" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>http://localhost:4000/functions_and_limits/TEST%201</id><content type="html" xml:base="http://localhost:4000/functions_and_limits/TEST-1/">&lt;h1 id=&quot;내용&quot;&gt;내용&lt;/h1&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Calculus" /><summary type="html">내용</summary></entry><entry><title type="html">Make Categories : Derivatives</title><link href="http://localhost:4000/derivatives/TEST-2/" rel="alternate" type="text/html" title="Make Categories : Derivatives" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>http://localhost:4000/derivatives/TEST%202</id><content type="html" xml:base="http://localhost:4000/derivatives/TEST-2/">&lt;h1 id=&quot;내용&quot;&gt;내용&lt;/h1&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Calculus" /><summary type="html">내용</summary></entry><entry><title type="html">Make Categories : Applications of Differentiation</title><link href="http://localhost:4000/applications%20of%20differentiation/TEST-3/" rel="alternate" type="text/html" title="Make Categories : Applications of Differentiation" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>http://localhost:4000/applications%20of%20differentiation/TEST%203</id><content type="html" xml:base="http://localhost:4000/applications%20of%20differentiation/TEST-3/">&lt;h1 id=&quot;내용&quot;&gt;내용&lt;/h1&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Calculus" /><summary type="html">내용</summary></entry><entry><title type="html">Make Categories : Integral</title><link href="http://localhost:4000/integral/TEST-4/" rel="alternate" type="text/html" title="Make Categories : Integral" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>http://localhost:4000/integral/TEST%204</id><content type="html" xml:base="http://localhost:4000/integral/TEST-4/">&lt;h1 id=&quot;내용&quot;&gt;내용&lt;/h1&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Calculus" /><summary type="html">내용</summary></entry><entry><title type="html">Make Categories : Applications of Integration</title><link href="http://localhost:4000/applications%20of%20integration/TEST-5/" rel="alternate" type="text/html" title="Make Categories : Applications of Integration" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>http://localhost:4000/applications%20of%20integration/TEST%205</id><content type="html" xml:base="http://localhost:4000/applications%20of%20integration/TEST-5/">&lt;h1 id=&quot;내용&quot;&gt;내용&lt;/h1&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Calculus" /><summary type="html">내용</summary></entry><entry><title type="html">Make Categories : Inverse Functions</title><link href="http://localhost:4000/inverse%20functions/TEST-6/" rel="alternate" type="text/html" title="Make Categories : Inverse Functions" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>http://localhost:4000/inverse%20functions/TEST%206</id><content type="html" xml:base="http://localhost:4000/inverse%20functions/TEST-6/">&lt;h1 id=&quot;내용&quot;&gt;내용&lt;/h1&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Calculus" /><summary type="html">내용</summary></entry><entry><title type="html">Make Categories : Techniques of Integration</title><link href="http://localhost:4000/techniques%20of%20integration/TEST-7/" rel="alternate" type="text/html" title="Make Categories : Techniques of Integration" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>http://localhost:4000/techniques%20of%20integration/TEST%207</id><content type="html" xml:base="http://localhost:4000/techniques%20of%20integration/TEST-7/">&lt;h1 id=&quot;내용&quot;&gt;내용&lt;/h1&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Calculus" /><summary type="html">내용</summary></entry><entry><title type="html">TEST</title><link href="http://localhost:4000/java/TEST/" rel="alternate" type="text/html" title="TEST" /><published>2021-01-26T00:00:00+09:00</published><updated>2021-01-26T00:00:00+09:00</updated><id>http://localhost:4000/java/TEST</id><content type="html" xml:base="http://localhost:4000/java/TEST/">&lt;h1 id=&quot;제목-&quot;&gt;제목 ?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-08T19:14:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">MJ’s</title><subtitle></subtitle><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><entry><title type="html">선형근사 (Linear approximation)</title><link href="http://localhost:4000/calculus1/Linear_approximation/" rel="alternate" type="text/html" title="선형근사 (Linear approximation)" /><published>2021-03-08T00:00:00+09:00</published><updated>2021-03-08T00:00:00+09:00</updated><id>http://localhost:4000/calculus1/Linear_approximation</id><content type="html" xml:base="http://localhost:4000/calculus1/Linear_approximation/">&lt;h1 id=&quot;선형-근사&quot;&gt;선형 근사&lt;/h1&gt;
+
+&lt;p&gt;“&lt;strong&gt;함수의 그래프와 그 그래프의 접선은 인접한 부분에서 그래프가 유사하다.&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;의 아이디어 사용&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;ex) \((1.999)^4\)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;우선 \(y = x^4\) 의 그래프와 그 위의 점 \((2,16)\)에서의 접선 \(y = 32x - 48\)의 그래프를 그린다.&lt;/p&gt;
+
+&lt;p&gt;\(y = x^4\)을 \(f(x)\),  \(y = 32x - 48\)을 \(L(x)\)라고 하자.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/72269271/110303746-1abf3b80-803e-11eb-8c03-1a6f83c92765.JPG&quot; alt=&quot;linearapproximation_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위에서 사용한 아이디어를 통해 \(f(1.999)\) 와 \(L(1.999)\)는 유사한 값을 갖는다.&lt;/p&gt;
+
+&lt;p&gt;실제로 계산해보면 \((1.999)^4 = 15.968023, 32(1.999)-48 = 15.968\) 이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;이렇게 1차(선형)근사를 통해 근사값을 찾는 방법을 &lt;strong&gt;선형근사&lt;/strong&gt;라고 한다.&lt;/p&gt;
+
+&lt;p&gt;정리해보면 선형근사를 통해 근사값을 찾아가는 과정은&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;주어진 수&lt;/em&gt;(복잡한 수)와 가장 인접한 &lt;em&gt;편리한 수&lt;/em&gt; (계산이 쉬운 수, 주로 정수)를 택한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;예제에서는 &lt;strong&gt;편리한 수&lt;/strong&gt; 로 2를 택함.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;주어진 수&lt;/em&gt; 를 미지수\(x\) 로 두고 함수로 만든다.
+    &lt;blockquote&gt;
+      &lt;p&gt;예제에서 1.999 -&amp;gt; \(x\) , 만들어진 함수 : \(f(x) = x^4\)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;위에서 정한 &lt;strong&gt;편리한 수&lt;/strong&gt; 를 \(x\) 값으로 갖는 함수 \(f(x)\)위의 점을 찾는다.
+    &lt;blockquote&gt;
+      &lt;p&gt;예제에서 \((2,16)\)이 함수 위의 점.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;선택된 좌표에서 접선의 방정식을 찾는다. \(L(x) = f'(a)(x-a)+f(a)\) (여기서 a는 &lt;strong&gt;편리한 수&lt;/strong&gt;)
+    &lt;blockquote&gt;
+      &lt;p&gt;예제에서 \(L(x) = 4(2)^3(x-2)+2^4 = 16x - 48\)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Minjun Kim</name><email>20181796@edu.hanbat.ac.kr</email></author><category term="Linear Approximation" /><summary type="html">선형 근사</summary></entry><entry><title type="html">TEST</title><link href="http://localhost:4000/java/TEST/" rel="alternate" type="text/html" title="TEST" /><published>2021-01-26T00:00:00+09:00</published><updated>2021-01-26T00:00:00+09:00</updated><id>http://localhost:4000/java/TEST</id><content type="html" xml:base="http://localhost:4000/java/TEST/">&lt;h1 id=&quot;제목-&quot;&gt;제목 ?&lt;/h1&gt;
 &lt;p&gt;Theta: \(\theta\)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog/logo.png&quot; alt=&quot;&amp;quot;^^&amp;quot;&quot; /&gt;&lt;/p&gt;
