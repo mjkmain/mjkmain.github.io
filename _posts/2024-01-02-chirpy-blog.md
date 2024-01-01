@@ -1,5 +1,5 @@
 ---
-title: 블로그 만드는 법
+title: Github 블로그 만드는 법
 author: mjkmain
 date: 2024-01-02 00:43:00 +0900
 categories: [Blogging]
