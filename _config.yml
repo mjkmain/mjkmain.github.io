@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: mjkmain # the main title
+title: Minjun Kim # the main title
 
 tagline: NLP, Multimodal Learning # it will display as the sub-title
 
@@ -28,9 +28,6 @@ url: "https://mjkmain.github.io"
 github:
   username: mjkmain # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -38,8 +35,7 @@ social:
   email: mjkmain20@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/mjkmain # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

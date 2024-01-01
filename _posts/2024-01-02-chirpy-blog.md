@@ -186,4 +186,4 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ![Desktop View](https://github.com/mjkmain/blog-image/assets/72269271/9c078dea-0b3d-4c48-9d0f-cd0f41a83c77){: width="800"}
 <!-- action-failed.png -->
 
-모두들 30분컷 하시길 바랍니다. 아 이미지 왜 안뜨냐
+모두들 30분컷 하시길 바랍니다.
