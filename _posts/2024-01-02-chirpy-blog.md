@@ -9,7 +9,6 @@ math: true
 render_with_liquid: false
 ---
 
-
 # [Chirpy 테마](https://github.com/cotes2020/jekyll-theme-chirpy)로 github 블로그 구축하기
 
 3일 걸렸습니다. 여러분은 30분 걸리시길 바랍니다. [(공식 가이드)](https://chirpy.cotes.page/posts/getting-started/)
@@ -46,7 +45,7 @@ $ npm -v
 [Github Fork](https://github.com/cotes2020/jekyll-theme-chirpy/fork)를 통해 fork를 진행합니다. 이때, repository name은 아래 사진과 같이 `<username>.github.io`로 지정합니다.
 
 
-![Desktop View](/assets/img/post_imgs/2024-01-02/fork.png){: width="700" height="400" }
+![Desktop View](/assets/img/post_imgs/2024-01-02/fork.png){: width="680" }
 
 다음으로 git clone을 진행합니다.
 ```console
@@ -117,6 +116,7 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 [해당 사이트](https://talk.jekyllrb.com/t/build-error-at-setup-ruby-stage-of-build-and-deploy-on-actions/8782)를 참고했습니다.
 
 `.github/workflows/pages-deploy.yml`{: .filepath} 파일에서 `ruby-version`을 수정해야 합니다.
+
 ![Desktop View](/assets/img/post_imgs/2024-01-02/ruby-version.png){: width="400"}
 
 
@@ -182,6 +182,4 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 이메일 오는 소리 PTSD옵니다..
 ![Desktop View](/assets/img/post_imgs/2024-01-02/action-failed.png){: width="800"}
 
-모두들 30분컷 하시길 바랍니다.
-
-<!-- ![Desktop View](/assets/img/favicons/post_imgs/2024-01-02/tiger.jpg){: width="700" height="400" } -->
+모두들 30분컷 하시길 바랍니다. 아 이미지 왜 안뜨냐
