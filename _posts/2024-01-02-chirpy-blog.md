@@ -45,7 +45,8 @@ $ npm -v
 [Github Fork](https://github.com/cotes2020/jekyll-theme-chirpy/fork)를 통해 fork를 진행합니다. 이때, repository name은 아래 사진과 같이 `<username>.github.io`로 지정합니다.
 
 
-![Desktop View](/assets/img/post_imgs/2024-01-02/fork.png){: width="680" }
+![Desktop View](https://github.com/mjkmain/BOK-VQA/assets/72269271/f26d130f-fbcb-4aa3-928c-35b83966ada0){: width="680" } 
+<!-- fork.png -->
 
 다음으로 git clone을 진행합니다.
 ```console
@@ -117,8 +118,8 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 
 `.github/workflows/pages-deploy.yml`{: .filepath} 파일에서 `ruby-version`을 수정해야 합니다.
 
-![Desktop View](/assets/img/post_imgs/2024-01-02/ruby-version.png){: width="400"}
-
+![Desktop View](https://github.com/mjkmain/BOK-VQA/assets/72269271/cc5c31d7-a800-43d5-8105-e5e4c81ddfb7){: width="400"}
+<!-- ruby-version.png -->
 
 이 작업을 하지 않으면 github action에서 아래와 같은 에러가 발생합니다. 
 ```console
@@ -146,7 +147,8 @@ Error: The process '/opt/hostedtoolcache/Ruby/3.3.0/x64/bin/bundle' failed with 
 ### 6. Github setting
 깃헙 레포지토리로 가서 Settings-Pages에서 `Build and deployment`를 Github Actions로 변경해야합니다. 
 
-![Desktop View](/assets/img/post_imgs/2024-01-02/action-setting.png){: width="700"}
+![Desktop View](https://github.com/mjkmain/BOK-VQA/assets/72269271/ababe208-92db-435c-bfce-86adf7c7dd7a){: width="700"}
+<!-- action-setting.png -->
 
 ### 7. Git commit & push
 이제 _config.yml 변경된 사항을 add하고, `bash tools/init` 진행 시 발생한 변경사항을 push 합니다. 
@@ -176,10 +178,12 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ### 8. Action build 확인
 아래 사진처럼 action에 초록색 체크 뜨는지 확인하시고 `<username>.github.io` 로 접속해보시면 됩니다. 
 
-![Desktop View](/assets/img/post_imgs/2024-01-02/action.png){: width="600"}
+![Desktop View](https://github.com/mjkmain/BOK-VQA/assets/72269271/b50d65f9-7195-4338-bfa0-185cdc13ddbb){: width="600"}
+<!-- action.png -->
 
 저는 action run failed 떠서 3일동안 우울했어요 
 이메일 오는 소리 PTSD옵니다..
-![Desktop View](/assets/img/post_imgs/2024-01-02/action-failed.png){: width="800"}
+![Desktop View](https://github.com/mjkmain/BOK-VQA/assets/72269271/f7daeb03-7cb7-4a98-9d4a-c4e04b16ea7f){: width="800"}
+<!-- action-failed.png -->
 
 모두들 30분컷 하시길 바랍니다. 아 이미지 왜 안뜨냐

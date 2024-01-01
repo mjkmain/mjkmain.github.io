@@ -18,4 +18,4 @@ package-lock.json
 .idea
 .vscode
 
-# Misc
+./assets/img/post_imgs/*
