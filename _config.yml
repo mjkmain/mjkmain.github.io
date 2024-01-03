@@ -66,7 +66,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://ibb.co/1sP0Qpm
+img_cdn: https://github.com/mjkmain/blog-image/assets/72269271/ae2d0e56-604f-48c4-8451-e93296d87d03
 
 # the avatar on sidebar, support local or CORS resources
 avatar:
