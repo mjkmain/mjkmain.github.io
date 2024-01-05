@@ -89,7 +89,7 @@ $$
 $$
 
 
-Ultimately, what we want to get is the term of $$\nabla_\theta \ln P_\theta(\tau)$$ 
+What we want to get is the term of $$\nabla_\theta \ln P_\theta(\tau)$$ 
 
 $$
 \begin{aligned}
@@ -97,6 +97,31 @@ $$
 
     &= \nabla_\theta \ln P_\theta (a_0|s_0) + \nabla_\theta \ln P_\theta (a_1, s_1) + \nabla_\theta \ln P_\theta (a_2|s_2) + \cdots\\
     &= \nabla_\theta\sum_{t=0}^{\infty} \ln P_\theta (a_t|s_t)
+\end{aligned}
+$$
+
+Substituting equation 
+$\nabla_\theta \ln P_\theta(\tau)= \nabla_\theta\sum_{t=0}^{\infty} \ln P_\theta (a_t|s_t)$ into equation 
+$\int_\tau G_0 P_\theta(\tau) \nabla_\theta \ln P_\theta(\tau) d\tau$
+
+
+$$
+\begin{aligned}
+\nabla_\theta J_\theta & = \int_\tau G_0 P_\theta(\tau) \nabla_\theta \ln P_\theta(\tau) d\tau\\
+
+&= \int_\tau G_0 P_\theta(\tau)\nabla_\theta \sum_{t=0}^{\infty} \ln P_\theta (a_t|s_t) d\tau
+\end{aligned}
+$$
+
+[3]
+
+Here, $$G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \gamma^3 R_{t+3} +\cdots$$
+
+$$
+\begin{aligned}
+\nabla_\theta J_\theta &= \int_\tau G_0 P_\theta(\tau)\nabla_\theta \sum_{t=0}^{\infty} \ln P_\theta (a_t|s_t) d\tau\\
+&= \int_\tau \big(R_0 + \gamma R_1 + \gamma^2 R_2 + \cdots\big) \big(\nabla_\theta \ln P_\theta(a_0|s_0) + \nabla_\theta \ln P_\theta(a_1|s_1) + \cdots \big) P_\theta(\tau)d\tau
+
 \end{aligned}
 $$
 
