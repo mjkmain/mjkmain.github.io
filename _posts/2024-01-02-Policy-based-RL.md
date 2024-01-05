@@ -1,5 +1,5 @@
 ---
-title: RLHF
+title: Policy based RL
 author: mjkmain
 date: 2024-01-02 03:54:00 +0900
 categories: [NLP]
@@ -10,7 +10,28 @@ render_with_liquid: false
 ---
 
 
-# RL Keywords
+
+# Questions
+
+## Q1. (REINFORCE algorithm) Proof 
+
+$$\nabla J_\theta \approx \int_{\tau} \sum_{t=0}^{\infty}\left[\nabla_\theta \ln P_\theta (a_t|s_t)G_t \right]P_\theta (\tau) d\tau$$
+
+Where $\tau$ denotes the trajectory $(s_0, a_0, s_1, a_1, \cdots)$.
+
+This proof is essential for finding the policy gradient $\nabla_\theta J_\theta$.
+
+$$J_\theta = \mathbb{E}_{\tau} [P_{\theta}(\tau)] = \int_\tau G_0 P_\theta (\tau) d\tau$$
+
+$$G_0 = R_0 + \gamma R_1 + \gamma^2 R_2 + \cdots $$
+
+
+
+
+
+
+
+<!-- # RL Keywords
 - Environment : 에이전트가 액션을 취하는 환경
 - State : 에이전트의 상태. 시점 $t$에서의 상태 $s_t \in \mathcal{S}$ ($\mathcal{S}$ : State space)
 - Reward : 에이전트가 한 번 학습했을 때 주어지는 보상. 보상함수 $r : \mathcal{S} \to \mathbb{R} $
@@ -45,4 +66,4 @@ TRPO는 Policy-based 알고리즘을 기반으로 하여, Trust Region에서만 
 
 $$\eta(\pi) = \mathbb{E}_{s_0, a_0, \cdots}\left[\sum_{t=0}^{\inf} \gamma^{t}r(s_t)\right]$$
 
-$$ \text{where} s_0 \sim \rho_0(s_0), a_t \sim \pi(a_t|s_t), s_{t+1} \sim P(s_{t+1} | s_t, a_t)$$
+$$ \text{where} s_0 \sim \rho_0(s_0), a_t \sim \pi(a_t|s_t), s_{t+1} \sim P(s_{t+1} | s_t, a_t)$$ -->
