@@ -7,6 +7,7 @@ tags: [NLP, LLM]
 pin: true
 math: true
 render_with_liquid: false
+comments: True
 ---
 
 
@@ -25,12 +26,79 @@ $$G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots $$
 
 $$J_\theta = \mathbb{E}_{\tau} [G_0] = \int_\tau G_0 P_\theta (\tau) d\tau$$
 
+## Solution
+
+$$
+\begin{aligned}
+J_\theta &= \int_\tau G_0 P_\theta (\tau) d\tau\\
+\nabla_\theta J_\theta &= \nabla_\theta \int_\tau G_0 P_\theta (\tau) d\tau = \int_\tau G_0 \nabla_\theta P_\theta (\tau) d\tau
+\end{aligned}
+$$
+
+[1]
+> We want this to appear in probability form, $$\int_x x P(x) dx$$, so we use a little trick.\\
+> $$\nabla_\theta P_\theta(\tau) = P_\theta(\tau) \nabla_\theta \ln P_\theta(\tau) $$
+{: .prompt-tip }
+
+Then, 
+
+$$
+\begin{aligned}
+\nabla_\theta J_\theta & = \int_\tau G_0 P_\theta(\tau) \nabla_\theta \ln P_\theta(\tau) d\tau
+\end{aligned}
+$$
+
+[2]
+> by Bayes' rule, 
+> $$P(A, B) = P(A)P(B|A)$$
+{: .prompt-tip }
 
 
 
+$$
+\begin{aligned}
+    P_\theta(\tau) &= P_\theta(s_0, a_0, s_1, a_1, \cdots)\\
+                   &= P_\theta(s_0)P_\theta(a_0, s_1, a_1, \cdots|s_0)\\
+                   &= P_\theta(s_0)P_\theta(a_0|s_0)P_\theta(s_1, a_1, s_2, \cdots|s_0, a_0)\\
+                   &= P_\theta(s_0)P_\theta(a_0|s_0)P_\theta(s_1 | s_0, a_0)P_\theta(s_2, a_2, s_3, \cdots|s_0, a_0, s_1)\\
+                   & \quad \vdots\\
+                   & = P_\theta(s_0)P_\theta(a_0|s_0)P_\theta(s_1|s_0, a_0)P_\theta(a_1 | s_0, a_0, s_1)P_\theta(s_2|s_0, a_0, s_1, a_1) \cdots\qquad\qquad\\
+\end{aligned}
+$$
+
+- Here, 
+$P_\theta(a_1|s_0, a_0, s_1) = P_\theta(a_1|s_1)$ since it satisfies the Markov property.
+
+> Markov property : The future state depends solely on the current state and not on past states or actions.
+{: .prompt-tip }
+
+- And, because the state $s_t$ does not depend on 
+$\theta, P_\theta(s_t | s_{t-1}, a_{t-1}) = P(s_t | s_{t-1}, a_{t-1})$.
+
+Then, we can simpify as following 
+
+$$
+\begin{aligned}
+    P_\theta(\tau) &= P_\theta(s_0, a_0, s_1, a_1, \cdots)\\
+                   &= P(s_0)P_\theta(a_0, s_1, a_1, \cdots|s_0)\\
+                   &= P(s_0)P_\theta(a_0|s_0)P_\theta(s_1, a_1, s_2, \cdots|s_0, a_0)\\
+                   &= P(s_0)P_\theta(a_0|s_0)P(s_1 | s_0, a_0)P_\theta(s_2, a_2, s_3, \cdots|s_0, a_0, s_1)\\
+                   & \quad \vdots\\
+                   & = P(s_0)P_\theta(a_0|s_0)P(s_1|s_0, a_0)P_\theta(a_1 | s_1)P(s_2|s_1, a_1) \cdots\\
+\end{aligned}
+$$
 
 
+Ultimately, what we want to get is the term of $$\nabla_\theta \ln P_\theta(\tau)$$ 
 
+$$
+\begin{aligned}
+    \nabla_\theta \ln P_\theta(\tau) & = \nabla_\theta  \big[\ln P(s_0) + \ln P_\theta(a_0|s_0) + \ln P(s_1|s_0, a_0) + \ln P_\theta(a_1 | s_1) + \ln P(s_2|s_1, a_1) \cdots \big]\\
+
+    &= \nabla_\theta \ln P_\theta (a_0|s_0) + \nabla_\theta \ln P_\theta (a_1, s_1) + \nabla_\theta \ln P_\theta (a_2|s_2) + \cdots\\
+    &= \nabla_\theta\sum_{t=0}^{\infty} \ln P_\theta (a_t|s_t)
+\end{aligned}
+$$
 
 <!-- # RL Keywords
 - Environment : 에이전트가 액션을 취하는 환경
