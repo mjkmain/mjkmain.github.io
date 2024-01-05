@@ -21,9 +21,10 @@ Where $\tau$ denotes the trajectory $(s_0, a_0, s_1, a_1, \cdots)$.
 
 This proof is essential for finding the policy gradient $\nabla_\theta J_\theta$.
 
-$$J_\theta = \mathbb{E}_{\tau} [P_{\theta}(\tau)] = \int_\tau G_0 P_\theta (\tau) d\tau$$
-
 $$G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots $$
+
+$$J_\theta = \mathbb{E}_{\tau} [G_0] = \int_\tau G_0 P_\theta (\tau) d\tau$$
+
 
 
 
