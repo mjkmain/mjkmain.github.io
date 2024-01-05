@@ -15,7 +15,7 @@ render_with_liquid: false
 
 ## Q1. (REINFORCE algorithm) Proof 
 
-$$\nabla J_\theta \approx \int_{\tau} \sum_{t=0}^{\infty}\left[\nabla_\theta \ln P_\theta (a_t|s_t)G_t \right]P_\theta (\tau) d\tau$$
+$$\nabla_{\theta} J_\theta \approx \int_{\tau} \sum_{t=0}^{\infty}\left[\nabla_\theta \ln P_\theta (a_t|s_t)G_t \right]P_\theta (\tau) d\tau$$
 
 Where $\tau$ denotes the trajectory $(s_0, a_0, s_1, a_1, \cdots)$.
 
