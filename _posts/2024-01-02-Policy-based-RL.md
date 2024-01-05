@@ -23,7 +23,7 @@ This proof is essential for finding the policy gradient $\nabla_\theta J_\theta$
 
 $$J_\theta = \mathbb{E}_{\tau} [P_{\theta}(\tau)] = \int_\tau G_0 P_\theta (\tau) d\tau$$
 
-$$G_0 = R_0 + \gamma R_1 + \gamma^2 R_2 + \cdots $$
+$$G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots $$
 
 
 
