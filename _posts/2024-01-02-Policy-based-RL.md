@@ -14,7 +14,7 @@ comments: True
 
 # Questions
 
-## Q1. (REINFORCE algorithm) Proof 
+## Q1. Policy-based algorithm Proof 
 
 $$\nabla_{\theta} J_\theta \approx \int_{\tau} \sum_{t=0}^{\infty}\left[\nabla_\theta \ln P_\theta (a_t|s_t)G_t \right]P_\theta (\tau) d\tau$$
 
@@ -123,6 +123,15 @@ $$
 &= \int_\tau \big(R_0 + \gamma R_1 + \gamma^2 R_2 + \cdots\big) \big(\nabla_\theta \ln P_\theta(a_0|s_0) + \nabla_\theta \ln P_\theta(a_1|s_1) + \cdots \big) P_\theta(\tau)d\tau
 
 \end{aligned}
+$$
+
+At specific time step $$t^*$$, we intuitively know that R_t occurring at time $$t < t^*$$ does not affect 
+$$P_\theta(a_{t}^*|s_{t}^*)$$.
+
+We can then simplify the expression as follows:
+
+$$
+\nabla_\theta J_\theta = \int_\tau \sum_{t=0}^{\infty} \big[ \nabla_\theta \ln P_\theta (a_t|s_t) \sum_{k=t}^{\infty}\gamma^{k} R_k \big] P_\theta(\tau) d\tau
 $$
 
 <!-- # RL Keywords
