@@ -14,7 +14,7 @@ comments: True
 
 # Questions
 
-## Q1. Policy-based algorithm Proof 
+## Q1. Policy-based algorithm 
 
 $$\nabla_{\theta} J_\theta \approx \int_{\tau} \sum_{t=0}^{\infty}\left[\nabla_\theta \ln P_\theta (a_t|s_t)G_t \right]P_\theta (\tau) d\tau$$
 
@@ -132,6 +132,20 @@ We can then simplify the expression as follows:
 
 $$
 \nabla_\theta J_\theta = \int_\tau \sum_{t=0}^{\infty} \big[ \nabla_\theta \ln P_\theta (a_t|s_t) \sum_{k=t}^{\infty}\gamma^{k} R_k \big] P_\theta(\tau) d\tau
+$$
+
+$$G_t$$ can be represented as $$\sum_{k=0}^{\infty}\gamma^{k} R_{t+k} = \sum_{k=t}^{\infty}\gamma^{k-t}R_{k}$$
+
+Then 
+
+$$
+\begin{aligned}
+\nabla_\theta J_\theta &= \int_\tau \sum_{t=0}^{\infty} \big[\nabla_\theta \ln P_\theta(a_t|s_t) \sum_{k=t}^{\infty} \gamma^{t}\gamma^{k-t}R_k \big]P_\theta(\tau)d\tau\\
+&= \int_\tau \sum_{t=0}^{\infty} \big[\nabla_\theta \ln P_\theta(a_t|s_t)\gamma^{t} G_t \big]P_\theta(\tau)d\tau
+
+
+
+\end{aligned}
 $$
 
 <!-- # RL Keywords
