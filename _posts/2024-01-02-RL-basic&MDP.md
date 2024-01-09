@@ -2,8 +2,8 @@
 title: RL basic and MDP
 author: mjkmain
 date: 2024-01-02 03:54:00 +0900
-categories: [NLP]
-tags: [NLP, LLM]
+categories: [RL]
+tags: [RL]
 pin: true
 math: true
 render_with_liquid: false
